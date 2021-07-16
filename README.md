@@ -8,3 +8,4 @@
 ![Stars badge](https://img.shields.io/github/stars/JelleVos1/wase-engine-docs?style=social)
 
 This repository contains the documentation for the [Wase Engine](https://github.com/JelleVos1/wase-engine) repository.
+The documentation can be found on our [website](https://wase-engine.com/documentation)
