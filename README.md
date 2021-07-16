@@ -9,3 +9,12 @@
 
 This repository contains the documentation for the [Wase Engine](https://github.com/Wase-Engine/wase-engine) repository.
 The documentation can be found on our [website](https://wase-engine.com/documentation)
+
+## Contributing
+Any contributions are highly appreciated. When you want to create a new documentation page you will need to follow some guidelines.
+- Every file/folder should start of with a number that represents the order
+- If you want to split a title into multiple words use underscores
+- The maximum depth for folders is 1
+- Every file should be Markdown
+
+An example for a new file could be `93_Example_title.md`.
