@@ -1,7 +1,7 @@
 To set up a window with Wase Engine you will need to initialize Wase Engine, load in scenes and run it.
 
 *main.cpp*
-```c++
+```
 #include "example_scene.h"
 #include <wase/core/engine.h>
 #include <wase/core/managers/scene_manager.h>
@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
 ```
 
 *example_scene.h*
-```c++
+```
 #pragma once
 
 #include <wase/core/scene.h>

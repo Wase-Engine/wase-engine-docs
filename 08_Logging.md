@@ -1,6 +1,6 @@
 To log information to the console you can use the logging system of Wase Engine.
 *example_scene.h*
-```c++
+```
 #pragma once
 
 #include <wase/core/scene.h>
