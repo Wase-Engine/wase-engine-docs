@@ -2,7 +2,7 @@ To prevent loading in the same file multiple times there is a ResourceManager, t
 
 ## Loading resources
 *main.cpp*
-```c++
+```
 #include <wase/core/engine.h>
 #include <wase/core/managers/scene_manager.h>
 #include <wase/core/managers/resource_manager.h>
@@ -32,7 +32,7 @@ The ResourceManager can be used to load in images, fonts and audio files.  Like 
 
 ## Getting resources
 To get a resource from the ResourceManager you can call the following methods from everywhere:
-```c++
+```
 ResourceManager::getTexture("Texture name")
 ResourceManager::getFont("Font name");
 ResourceManager::getAudio("Audio name");

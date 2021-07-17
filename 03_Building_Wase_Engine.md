@@ -1,4 +1,3 @@
-
 To build Wase Engine you will need to install the following tools:  
 - C++17 or higher  
 - CMake  

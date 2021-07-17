@@ -2,7 +2,7 @@ In Wase Engine you have the possibility to have multiple scenes and switch betwe
 
 ## Loading scenes
 *main.cpp*
-```c++
+```
 #include <wase/core/engine.h>
 #include <wase/core/managers/scene_manager.h>
 #include <memory>
@@ -28,7 +28,7 @@ As you can see the SceneManager class takes care of all the scene's. First you l
 
 ## Switching between scenes
 The SceneManager offers the ability to switch  between scenes during runtime. You can call the method setActiveScene everywhere.
-```c++
+```
 // The Main Menu scene gets called every frame
 void MainMenu::update(float dt)
 {
@@ -43,6 +43,6 @@ void MainMenu::update(float dt)
 
 ## Getting the current scene
 To get the current scene you can call:
-```c++
+```
 SceneManager::getActiveScene()
 ```
