@@ -11,7 +11,7 @@ Each [Scene](Scene) has a EntityManager that handles all the [Entity](Entity) ob
 | addEntity | string name | [Entity](Entity)* | Add an [Entity](Entity) to the scene |
 | getEntity | string name | [Entity](Entity)* | Get an [Entity](Entity) by name |
 
-# Usage
+## Usage
 ```
 void TestScene::start()
 {
