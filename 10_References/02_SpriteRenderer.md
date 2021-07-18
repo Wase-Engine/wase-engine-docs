@@ -11,7 +11,7 @@ The SpriteRenderer can be used to render images/sprites on the screen.
 |-------|---|---|---|
 | SpriteRenderer | string name, int sizeX, int sizeY |  | Constructor |
 
-# Usage
+## Usage
 ```
 void TestScene::start()
 {
