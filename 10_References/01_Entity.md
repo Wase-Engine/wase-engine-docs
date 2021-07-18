@@ -16,7 +16,7 @@ An entity is a object that can be created in a [Scene](Scene). The entities give
 | getComponent | | T* | Get a [Component](Component) |
 | hasComponent | | bool | Returns if the entity has a certain [Component](Component) |
 
-# Usage
+## Usage
 ```
 void TestScene::start()
 {
