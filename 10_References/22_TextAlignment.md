@@ -1,6 +1,7 @@
 TextAlignment is a struct that is used inside of the [Button](Button) component.
 
 Values:
+
 - TOP_LEFT
 - TOP_CENTER
 - TOP_RIGHT
