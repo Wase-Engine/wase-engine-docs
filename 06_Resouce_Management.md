@@ -8,6 +8,8 @@ To prevent loading in the same file multiple times there is a ResourceManager, t
 #include <wase/core/managers/resource_manager.h>
 #include <memory>
 
+using namespace wase;
+
 int main(int argc, char* argv[])
 {
     // Initialize the engine, specify a title, the window position, the window size and additionally window flags 

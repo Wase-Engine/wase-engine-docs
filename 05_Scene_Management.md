@@ -7,6 +7,8 @@ In Wase Engine you have the possibility to have multiple scenes and switch betwe
 #include <wase/core/managers/scene_manager.h>
 #include <memory>
 
+using namespace wase;
+
 int main(int argc, char* argv[])
 {
     // Initialize the engine, specify a title, the window position, the window size and additionally window flags 
