@@ -6,6 +6,8 @@ To log information to the console you can use the logging system of Wase Engine.
 #include <wase/core/scene.h>
 #include <wase/core/utils/log_utils.h>
 
+using namespace wase;
+
 class ExampleScene : public Scene
 {
 public:
