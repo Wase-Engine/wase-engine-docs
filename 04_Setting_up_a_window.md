@@ -7,6 +7,8 @@ To set up a window with Wase Engine you will need to initialize Wase Engine, loa
 #include <wase/core/managers/scene_manager.h>
 #include <memory>
 
+using namespace wase;
+
 int main(int argc, char* argv[])
 {
     // Initialize the engine, specify a title, the window position, the window size and additionally window flags 
@@ -28,6 +30,8 @@ int main(int argc, char* argv[])
 
 #include <wase/core/scene.h>
 #include <wase/core/utils/log_utils.h>
+
+using namespace wase;
 
 class ExampleScene : public Scene
 {
