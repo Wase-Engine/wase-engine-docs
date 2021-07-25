@@ -6,7 +6,7 @@ To build Wase Engine you will need to install the following tools:
 - SDL2 Mixer  
 - SDL2 TTF  
   
-When you have all of them installed you can choose to build Wase Engine using the commandline or with the CMake gui. You will first need to clone this repository or your own fork, after this you can decide if you want to use the CMake gui or run the following commands:  
+**CMake**
   
 ```  
 mkdir build  
@@ -15,4 +15,12 @@ cmake ..
 cmake build .  
 ```
 
-Now you will be able to build the Wase Engine. When you build the Wase Engine there will be an include and lib folder in the build directory. You can use these for your game projects.
+**MinGW**
+```
+mkdir build
+cd build
+cmake -G "MinGW Makefiles" ..
+make
+```
+
+To add testing to your build you can add the additional commandline argument `-D enable_test=1` and run `ctest` in the test folder.
