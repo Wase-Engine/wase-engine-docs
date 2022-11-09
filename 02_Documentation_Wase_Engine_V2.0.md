@@ -1,0 +1,1 @@
+Wase Engine is currently being rewritten. The documentation for Wase Engine V1.0 can still be found on [GitHub](https://github.com/Wase-Engine/wase-engine-docs/tree/905d4423251c90fa894c40e8f239fae8138e97db)
